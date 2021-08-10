@@ -265,9 +265,9 @@ STREAM_UPDATE_REMOVED: '&6&lTynixCloud &8:: &fВаш стрим &7%stream_title%
 
 # Hub scoreboard.
 HUB_BOARD_TITLE:
-  - '§8» §e§lTynixCloud Hub'
-  - '§8» §e§lTynixCloud Hub'
-  - '§8» §e§lTynixCloud Hub'
+  - '§8» §6§lTynixCloud §e§lHub'
+  - '§8» §6§lTynixCloud §e§lHub'
+  - '§8» §6§lTynixCloud §e§lHub'
 HUB_BOARD_LINES:
   - '§1'
   - ' §e§lПрофиль:'

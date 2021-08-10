@@ -252,11 +252,12 @@ STREAMS_ANNOUNCE:
   - ''
   - ' §8§l↪ §7(Open the list of streams) §8§l↩'
 STREAM_UPDATE_REMOVED: '&6&lTynixCloud &8:: &fYour &7%stream_title% &fstream has been deleted because it`s no longer actual'
+
 # Hub scoreboard.
 HUB_BOARD_TITLE:
-  - '§8» §e§lTynixCloud Hub'
-  - '§8» §e§lTynixCloud Hub'
-  - '§8» §e§lTynixCloud Hub'
+  - '§8» §6§lTynixCloud §e§lHub'
+  - '§8» §6§lTynixCloud §e§lHub'
+  - '§8» §6§lTynixCloud §e§lHub'
 HUB_BOARD_LINES:
   - '§1'
   - ' §e§lProfile:'
