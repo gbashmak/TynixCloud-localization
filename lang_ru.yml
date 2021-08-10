@@ -236,7 +236,6 @@ LVL_UP_MESSAGE:
   - '  §a▸ §fДо следущего необходимо §e%total_exp% §fопыта'
   - ''
   - ''
-
 # Holographics
 HOLOGRAM_CASES_LINE_1: '§d§lМистический сундук'
 HOLOGRAM_CASES_LINE_2: '§7Ожидает своего пробуждения'
