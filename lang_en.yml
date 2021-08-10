@@ -29,7 +29,6 @@ ACCOUNT_NOT_LINKED_VK:
 PLAYER_SUCCESS_AUTH: '§6§lTynixCloud §8:: §f6You successfully registered!'
 NO_VK: '§8▪ §fVK - §cNot linked'
 VK_URL: '§8▪ §fVK - §ahttps://vk.com/id%vkId%'
-RULES: '§6§lTynixCloud §8:: §fFull list of server rules: §dhttps://vk.com/topic-196564626_46728627'
 
 # Core messages
 ALERT_HELP: '§6§lTynixCloud §8:: §fUse - §e/alert <message>'
@@ -154,7 +153,7 @@ BUNGEE_ANNOUNCER_QUESTION_MESSAGE:
   - '§e▪ §fНапишите команду §c/ask <ваш вопрос>'
   - '§2▪ §aОнлайн администрация§f поможет Вам §bв реальном времени'
   - ''
-  - ' §8§l↪ §7(Задать вопрос) §8§l↩'
+  - ' §8§l↪ §7(Ask a Question) §8§l↩'
   - ''
 BUNGEE_ANNOUNCER_QUESTION_HOVER: '§fНажми сюда, чтобы задать свой вопрос'
 BUNGEE_ANNOUNCER_DONATE_MENU_MESSAGE:
@@ -172,7 +171,7 @@ BUNGEE_ANNOUNCER_VK_ANNOUNCER_MESSAGE:
   - '§9▪ §fв курсе последних новостей §eсервера'
   - '§b▪ §fПереходите по ссылке §bvk.com/tynixcloud'
   - ''
-  - ' §8§l↪ §7(Перейти в ВК) §8§l↩'
+  - ' §8§l↪ §7(Go to VK) §8§l↩'
   - ''
 BUNGEE_ANNOUNCER_VK_ANNOUNCER_HOVER: '§f§fClick, for open VK url'
 BUNGEE_ANNOUNCER_BUY_DONATE_ANNOUNCER_MESSAGE:
@@ -247,33 +246,34 @@ STREAM_NEW_ANNOUNCE:
   - ' §8| §fViewers: §e§a%viewers%'
   - ''
   - ' §8§l↪ §7(Go to stream link) §8§l↩'
-
 STREAMS_ANNOUNCE:
   - ''
   - ' §8| §c§lWARNING! §fthe server is now running §b%count% §flive streams!'
   - ''
   - ' §8§l↪ §7(Open the list of streams) §8§l↩'
-
 STREAM_UPDATE_REMOVED: '&6&lTynixCloud &8:: &fYour &7%stream_title% &fstream has been deleted because it`s no longer actual'
 
 # Hub scoreboard.
 HUB_BOARD_TITLE:
-  - '§8» §e§lHub'
-  - '§8» §e§lHub'
-  - '§8» §e§lHub'
+  - '§8» §e§lTynixCloud Hub'
+  - '§8» §e§lTynixCloud Hub'
+  - '§8» §e§lTynixCloud Hub'
 HUB_BOARD_LINES:
   - '§1'
-  - ' §fGroup: %status%'
-  - ' §fBalance: §a%balance%'
-  - ' §fGolds: §e%golds%'
-  - ' §fLevel: §d%level%'
-  - ' §fEXP: §a%level_exp%§8/§c%level_max_exp%'
+  - ' §e§lProfile:'
+  - '  §fGroup: %status%'
+  - '  §fBalance: §a%balance%'
+  - '  §fGolds: §e%golds%'
+  - '  §fLevel: §d%level%'
+  - '  §fEXP: §a%level_exp%§8/§c%level_max_exp%'
   - '§e'
   - ' §fLevel progress: §a%level_exp_percent%'
   - '  §a↪ %level_bar%'
   - '§6'
   - ' §fOnline: §a%online%'
-  - ' §6§lwww.TynixCloud.ru'
+  - ' §fServer: §7%server_name%'
+  - '§a'
+  - '   §6§lwww.TynixCloud.ru'
 
 # MMORPG scoreboard.
 MMORPG_BOARD_TITLE:
@@ -351,7 +351,6 @@ ONEBLOCK_BOARD_LINES:
   - ''
   - 'Онлайн сервера: §a%online%'
   - ''
-  - '§7Меню острова - §b/is'
   - '§6§lwww.TynixCloud.ru'
 
 # Core player info messages.
@@ -496,7 +495,7 @@ HELP_MENU_NAVIGATION_LINES:
   - '§7Полезные команды для игры на сервере:'
   - ''
   - '§6/menu §f- Main menu'
-  - '§6/find <ник> §7- Find player'
+  - '§6/find <player name> §7- Find player'
   - '§6/online §f- Global online'
   - '§6/money §f- Your balance'
   - ''
@@ -523,7 +522,7 @@ HELP_MENU_DONATE_LINES:
   - ' §8▸ %tynix% §7- §f1500Р'
   - ''
   - '§7Подробное описание привилегий можно'
-  - '§7найти в разделе §bПрофиль §7/ §bПривилегии'
+  - '§7найти в разделе §bProfile §7/ §bDonate'
   - ''
   - '§7Приобрести привилегии можно'
   - '§7на сайте §dwww.tynixcloud.ru'
@@ -538,14 +537,14 @@ HELP_MENU_FRIENDS_LINES:
   - '§6/f list §7- Список друзей'
   - ''
   - '§7Подробнее о системе друзей можно'
-  - '§7узнать написав команду §6/friends'
+  - '§7узнать написав команду §6/friend'
   - ''
   - '§e▸ Нажмите, чтобы узнать подробнее.'
 HELP_MENU_SECURITY_TITLE: '§bAccount security'
 HELP_MENU_SECURITY_LINES:
   - '§7После регистрации рекомендуем'
   - '§7привязать к аккаунту свой ВКонтакте:'
-  - '§6!привязать [ник] [пароль]'
+  - '§6!привязать [player name] [password]'
   - ''
   - '§7При утере пароля пишите команду:'
   - '§6!восстановить'
@@ -573,7 +572,7 @@ HELP_MENU_MSG_LINES:
   - '§7Если вы не хотите получать'
   - '§7личные сообщения от определенного'
   - '§7игрока, то отключите ему возможность'
-  - '§7писать вам в ЛС: §6/ignore <Ник>'
+  - '§7писать вам в ЛС: §6/ignore <player name>'
 HELP_MENU_STREAM_TITLE: '§bLive streams'
 HELP_MENU_STREAM_LINES:
   - '§7Хотите поддержать сервер и набрать §6новых зрителей§7?'

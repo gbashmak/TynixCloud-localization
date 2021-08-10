@@ -30,7 +30,6 @@ ACCOUNT_NOT_LINKED_VK:
 PLAYER_SUCCESS_AUTH: '§6§lTynixCloud §8:: §fТы успешно зарегистрировался!'
 VK_URL: '§8▪ §fВКонтакте - §ahttps://vk.com/id%vkId%'
 NO_VK: '§8▪ §fВКонтакте - §cНе привязан'
-RULES: '§6§lTynixCloud §8:: §fПолный список правил: §dhttps://vk.com/topic-196564626_46728627'
 
 # Core messages
 ALERT_HELP: '§6§lTynixCloud §8:: §fИспользуйте - §e/alert <сообщение>'
@@ -267,22 +266,25 @@ STREAM_UPDATE_REMOVED: '&6&lTynixCloud &8:: &fВаш стрим &7%stream_title%
 
 # Hub scoreboard.
 HUB_BOARD_TITLE:
-  - '§8» §e§lЛобби'
-  - '§8» §e§lЛобби'
-  - '§8» §e§lЛобби'
+  - '§8» §e§lTynixCloud Hub'
+  - '§8» §e§lTynixCloud Hub'
+  - '§8» §e§lTynixCloud Hub'
 HUB_BOARD_LINES:
   - '§1'
-  - ' §fСтатус: %status%'
-  - ' §fБаланс: §a%balance%'
-  - ' §fЗолота: §e%golds%'
-  - ' §fУровень: §d%level%'
-  - ' §fEXP: §a%level_exp%§8/§c%level_max_exp%'
+  - ' §e§lПрофиль:'
+  - '  §fСтатус: %status%'
+  - '  §fБаланс: §a%balance%'
+  - '  §fЗолота: §e%golds%'
+  - '  §fУровень: §d%level%'
+  - '  §fEXP: §a%level_exp%§8/§c%level_max_exp%'
   - '§e'
   - ' §fПрогресс уровня: §a%level_exp_percent%'
   - '  §a↪ %level_bar%'
   - '§6'
   - ' §fОнлайн: §a%online%'
-  - ' §6§lwww.TynixCloud.ru'
+  - ' §fСервер: §7%server_name%'
+  - '§a'
+  - '   §6§lwww.TynixCloud.ru'
 
 # MMORPG scoreboard.
 MMORPG_BOARD_TITLE:
@@ -360,7 +362,6 @@ ONEBLOCK_BOARD_LINES:
   - ''
   - 'Онлайн сервера: §a%online%'
   - ''
-  - '§7Меню острова - §b/is'
   - '§6§lwww.TynixCloud.ru'
 
 # Core player info messages.
