@@ -638,7 +638,7 @@ DONATE_STATUS_KNIGHT_LORE:
   - ' §fЦена: §a§l240 §aрублей'
   - ''
   - '§e▸ Нажмите, чтобы узнать подробнее'
-DONATE_STATUS_NINJA_TITLE: '§fСтатус §e§lNINJA §6§l§nBEST'
+DONATE_STATUS_NINJA_TITLE: '§fСтатус §e§lNINJA'
 DONATE_STATUS_NINJA_LORE:
   - ''
   - '§8§l· §fУникальные возможности'
