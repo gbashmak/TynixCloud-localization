@@ -287,9 +287,9 @@ HUB_BOARD_LINES:
 
 # MMORPG scoreboard.
 MMORPG_BOARD_TITLE:
-  - '§8» §6§lTynixCloud §8→ §e§lMMORPG'
-  - '§8» §6§lTynixCloud §8→ §e§lMMORPG'
-  - '§8» §6§lTynixCloud §8→ §e§lMMORPG'
+  - '§8» §e§lMMORPG'
+  - '§8» §e§lMMORPG'
+  - '§8» §e§lMMORPG'
 MMORPG_BOARD_LINES:
   - '§1'
   - '§7Информация:'
@@ -306,9 +306,9 @@ MMORPG_BOARD_LINES:
 
 # Grief scoreboard.
 GRIEF_BOARD_TITLE:
-  - '§8» §6§lTynixCloud §8→ §e§lGrief'
-  - '§8» §6§lTynixCloud §8→ §e§lGrief'
-  - '§8» §6§lTynixCloud §8→ §e§lGrief'
+  - '§8» §e§lGrief'
+  - '§8» §e§lGrief'
+  - '§8» §e§lGrief'
 GRIEF_BOARD_LINES:
   - '§1'
   - '§7Информация:'
@@ -326,9 +326,9 @@ GRIEF_BOARD_LINES:
 
 # SkyWars scoreboard.
 SKYWARS_BOARD_TITLE:
-  - '§8» §6§lTynixCloud §8→ §e§lSkyWars'
-  - '§8» §6§lTynixCloud §8→ §e§lSkyWars'
-  - '§8» §6§lTynixCloud §8→ §e§lSkyWars'
+  - '§8» §e§lSkyWars'
+  - '§8» §e§lSkyWars'
+  - '§8» §e§lSkyWars'
 SKYWARS_BOARD_LINES:
   - '§7SkyWars %date%'
   - '§2'
