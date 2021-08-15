@@ -247,6 +247,10 @@ HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_3: '§cNo free servers'
 HOLOGRAM_HUB_GAME_SELECT_NPC_AVAILABLE_LINE_3: '§eClick to connect!'
 HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_4: '§7Now playing §f%players% §7players'
 
+HOLOGRAM_LOBBY_MODE_NPC_LINE_1: '§e§oНажмите, чтобы перейти!'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_2: '§7Сейчас играет: §f%online%'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_3: '§7Серверов: §f%servers%'
+
 # Streams
 STREAM_NEW_ANNOUNCE:
   - ''
