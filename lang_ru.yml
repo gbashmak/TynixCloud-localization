@@ -375,7 +375,7 @@ DUELS_BOARD_TITLE:
 DUELS_BOARD_LINES:
   - '§1'
   - '§7Вы находитесь в лобби дуэлей'
-  - '§7Выбирайте игру и выигрывайте!'
+  - '§7Выбирайте игру и выигрывай!'
   - '§2'
   - '&7Statistic:'
   - ' §fStickFight Wins: §b%stickfight_wins%'
