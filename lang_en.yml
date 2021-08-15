@@ -366,7 +366,6 @@ ONEBLOCK_BOARD_LINES:
   - ''
   - '§6§lwww.TynixCloud.ru'
 
-
 # Duels scoreboard.
 DUELS_BOARD_TITLE:
   - '§8» §e§lDuels'
@@ -374,8 +373,8 @@ DUELS_BOARD_TITLE:
   - '§8» §e§lDuels'
 DUELS_BOARD_LINES:
   - '§1'
-  - '§7Вы находитесь в лобби дуэлей'
-  - '§7Выбирайте игру и выигрывай!'
+  - '§7You are in the duel lobby'
+  - '§7Choose a game and win!'
   - '§2'
   - '&7Statistic:'
   - ' §fStickFight Wins: §b%stickfight_wins%'
