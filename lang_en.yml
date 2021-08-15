@@ -366,6 +366,7 @@ ONEBLOCK_BOARD_LINES:
   - ''
   - '§6§lwww.TynixCloud.ru'
 
+
 # Duels scoreboard.
 DUELS_BOARD_TITLE:
   - '§8» §e§lDuels'
