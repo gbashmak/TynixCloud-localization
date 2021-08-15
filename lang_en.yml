@@ -247,9 +247,9 @@ HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_3: '§cNo free servers'
 HOLOGRAM_HUB_GAME_SELECT_NPC_AVAILABLE_LINE_3: '§eClick to connect!'
 HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_4: '§7Now playing §f%players% §7players'
 
-HOLOGRAM_LOBBY_MODE_NPC_LINE_1: '§e§oНажмите, чтобы перейти!'
-HOLOGRAM_LOBBY_MODE_NPC_LINE_2: '§7Сейчас играет: §f%online%'
-HOLOGRAM_LOBBY_MODE_NPC_LINE_3: '§7Серверов: §f%servers%'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_1: '§e§oClick to play!'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_2: '§7Now playing: §f%online%'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_3: '§7Servers: §f%servers%'
 
 # Streams
 STREAM_NEW_ANNOUNCE:
@@ -373,15 +373,14 @@ DUELS_BOARD_TITLE:
   - '§8» §e§lDuels'
 DUELS_BOARD_LINES:
   - '§1'
-  - ' §e§lПрофиль:'
-  - '  §fСтатус: %status%'
-  - '  §fБаланс: §a%balance%'
-  - '  §fЗолота: §e%golds%'
-  - '  §fУровень: §d%level%'
-  - '  §fEXP: §a%level_exp%§8/§c%level_max_exp%'
+  - '&7Statistic:'
+  - ' §fStickFight Kills: §b%stickfight_kills%'
+  - ' §fStickFight Wins: §b%stickfight_wins%'
+  - ' §fSumo Kills: §b%sumo_kills%'
+  - ' §fSumo Wins: §b%sumo_wins%'
   - '§6'
-  - ' §fОнлайн: §a%online%'
-  - ' §fСервер: §7%server_name%'
+  - ' §fOnline: §a%online%'
+  - ' §fServer: §7%server_name%'
   - '§a'
   - '   §6§lwww.TynixCloud.ru'
 
