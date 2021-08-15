@@ -362,6 +362,25 @@ ONEBLOCK_BOARD_LINES:
   - ''
   - '§6§lwww.TynixCloud.ru'
 
+# Duels scoreboard.
+DUELS_BOARD_TITLE:
+  - '§8» §e§lDuels'
+  - '§8» §e§lDuels'
+  - '§8» §e§lDuels'
+DUELS_BOARD_LINES:
+  - '§1'
+  - ' §e§lПрофиль:'
+  - '  §fСтатус: %status%'
+  - '  §fБаланс: §a%balance%'
+  - '  §fЗолота: §e%golds%'
+  - '  §fУровень: §d%level%'
+  - '  §fEXP: §a%level_exp%§8/§c%level_max_exp%'
+  - '§6'
+  - ' §fОнлайн: §a%online%'
+  - ' §fСервер: §7%server_name%'
+  - '§a'
+  - '   §6§lwww.TynixCloud.ru'
+
 # Core player info messages.
 INFO:
   - '§6§lTynixCloud §8:: §fPlayer information %player%'
