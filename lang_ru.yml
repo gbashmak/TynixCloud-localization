@@ -394,9 +394,9 @@ SKYWARS_BOARD_LINES:
 
 # OneBlock scoreboard.
 ONEBLOCK_BOARD_TITLE:
-  - '§8» §eОдин блок'
-  - '§8» §eОдин блок'
-  - '§8» §eОдин блок'
+  - '§8» §eOneBlock'
+  - '§8» §eOneBlock'
+  - '§8» §eOneBlock'
 ONEBLOCK_BOARD_LINES:
   - '§7%date%'
   - '§1'
@@ -425,9 +425,9 @@ DUELS_BOARD_LINES:
   - '&7Статистика:'
   - ' §fStickFight Wins: §b%stickfight_wins%'
   - ' §fSumo Wins: §b%sumo_wins%'
-  - ' §fUHC Wins: §c...'
-  - ' §fSkyWars Wins: §c...'
-  - ' §fBedWars Wins: §c...'
+  - ' §fUHC Wins: §c0'
+  - ' §fSkyWars Wins: §c0'
+  - ' §fBedWars Wins: §c0'
   - '§6'
   - ' §fОнлайн: §a%online%'
   - ' §fСервер: §7%server_name%'
