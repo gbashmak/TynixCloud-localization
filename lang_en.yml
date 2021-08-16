@@ -387,6 +387,23 @@ DUELS_BOARD_LINES:
   - ' §fServer: §7%server_name%'
   - '§a'
   - '   §6§lwww.TynixCloud.ru'
+# BedWars scoreboard.
+BEDWARS_BOARD_TITLE:
+  - '§8» §e§lBedWars'
+  - '§8» §e§lBedWars'
+  - '§8» §e§lBedWars'
+BEDWARS_BOARD_LINES:
+  - '§7BedWars %date%'
+  - '§2'
+  - '&7Statistic:'
+  - 'Solo Kills: §b0'
+  - 'Solo Wins: §b0'
+  - 'Doubles Kills: §b0'
+  - 'Doubles Wins: §b0'
+  - '§9'
+  - '§fOnline: §a%online%'
+  - '§7'
+  - '§6§lwww.TynixCloud.ru'
 
 # Core player info messages.
 INFO:
