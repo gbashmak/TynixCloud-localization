@@ -433,6 +433,7 @@ DUELS_BOARD_LINES:
   - ' §fСервер: §7%server_name%'
   - '§a'
   - '   §6§lwww.TynixCloud.ru'
+
 # BedWars scoreboard.
 BEDWARS_BOARD_TITLE:
   - '§8» §e§lBedWars'
