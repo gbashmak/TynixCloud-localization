@@ -585,7 +585,7 @@ PROFILE_MENU_CONVERT_LINES:
   - ''
   - '§7Вы отдаете свой уровень, конвертируя'
   - '§7свой уровень в монеты!'
-  - '§7Конвертация доступа с §c5 уровня!'
+  - '§7Конвертация доступна только с §c5 уровня!'
   - ''
   - '§e▸ Нажмите, чтобы открыть меню конвертации.'
 
@@ -795,7 +795,7 @@ DONATE_STATUS_YOUTUBE_LORE:
   - '§7Может добавлять стримы - §6/stream <ссылка>'
 
 # DonateMenu Inventory
-DONATE_MENU_TITLE: 'Донат меню'
+DONATE_MENU_TITLE: 'Меню донатера'
 DONATE_MENU_FASTMESSAGE_TITLE: '§eБыстрые сообщения'
 DONATE_MENU_FASTMESSAGE_LINES:
   - '§7Покажи всем какой ты сегодня'
