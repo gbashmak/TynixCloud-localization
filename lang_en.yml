@@ -39,10 +39,6 @@ SEND_HELP: '§6§lTynixCloud §8:: §fUse - §e/send <player> <server>'
 CRASH_HELP: '§6§lTynixCloud §8:: §fUse - §e/crash <player>'
 FIND_MESSAGE: '§6§lTynixCloud §8:: %player% §flocated on the server §e%server%'
 MONEY_MESSAGE: '§6§lTynixCloud §8:: §fYour balance is §e%money% §fand §6%golds%'
-EXT_MESSAGE: '§6§lTynixCloud §8:: §fYou §asuccessfully §fextinguished!'
-FEED_MESSAGE: '§6§lTynixCloud §8:: §fYou §successfully §ffeed yourself!'
-FLY_MESSAGE: '§6§lTynixCloud §8:: §fFlight mode: %fly%'
-HEAL_MESSAGE: '§6§lTynixCloud §8:: §fYour health §asuccess §frecovered!'
 PING_YOURSELF_MESSAGE: '§6§lTynixCloud §8:: §fYour ping is §a%ping% §fms'
 PING_OTHER_MESSAGE: '§6§lTynixCloud §8:: §fPlayer Ping %player% §f- §a%ping% §fms'
 
@@ -261,7 +257,6 @@ WHITELIST_KICK_MESSAGE:
   - '§4'
   - '§8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 
-
 TELEPORT_MESSAGE:
   - '§6§lTynixCloud §8:: §fList of available commands:'
   - ' §7Teleport to the player - §e/teleport <player>'
@@ -269,6 +264,27 @@ TELEPORT_MESSAGE:
   - ' §7Teleportation by coordinates - §e/teleport <x> <y> <z>'
   - ' §7Player teleportation by coordinates - §e/teleport <player> <x> <y> <z>'
 TELEPORT_SUCCESS_TELEPORT: '§6§lTynixCloud §8:: §fYou have been teleported to the player %player%'
+
+# Essentials messages.
+AUCTION_HELP_MESSAGE:
+  - '§6§lAuction §8:: §fСписок доступных команд:'
+  - ' §7Выставить на продажу предмет - §e/auction sell <цена>'
+  - ' §7Открыть меню аукциона - §e/auction menu/list'
+AUCTION_SELL_FORMAT: '§6§lAuction §8:: §fИспользуйте - §6/auction sell <цена>'
+AUCTION_SELL_ERROR_NOT_NUMBER: '§6§lAuction §8:: §cОшибка, указана неверная цена товара!'
+AUCTION_SELL_ERROR_NOT_ITEM: '§6§lAuction §8:: §cОшибка, у Вас нет никакого предмета в руках!'
+AUCTION_SELL_SUCCESS_ADD_ITEM: '§6§lAuction §8:: §fВы успешно выставили товар в руках на аукцион за §a%money%'
+
+WEATHER_FORMAT: '§6§lTynixCloud §8:: §fИспользуйте - §6/weather <thunder/storm/sun>'
+WEATHER_SUCCESS_CHANGE_SKY: '§6§lTynixCloud §8:: §fПогода в мире §e%world% §fбыла успешно изменена!'
+BACKWARD_ERROR_NOT_LOCATION: '§6§lTynixCloud §8:: §cОшибка, у Вас нет предыдущей точки телепортации!'
+CLEAR_SUCCESS_RESET: '§6§lTynixCloud §8:: §fВы были полностью очищены от вещей и эффектов!'
+DAY_SUCCESS_SET_TIME: '§6§lTynixCloud §8:: §fВ мире §e%world% §fбыло установено §6дневное §fвремя суток'
+NIGHT_SUCCESS_SET_TIME: '§6§lTynixCloud §8:: §fВ мире §e%world% §fбыло установено §9ночное §fвремя суток'
+EXT_MESSAGE: '§6§lTynixCloud §8:: §fYou §asuccessfully §fextinguished!'
+FEED_MESSAGE: '§6§lTynixCloud §8:: §fYou §successfully §ffeed yourself!'
+FLY_MESSAGE: '§6§lTynixCloud §8:: §fFlight mode: %fly%'
+HEAL_MESSAGE: '§6§lTynixCloud §8:: §fYour health §asuccess §frecovered!'
 
 # Level
 LVL_UP_TITLE: '§a§l§kX§c§l LEVEL UP §a§l§kX§r'

@@ -40,10 +40,6 @@ SEND_HELP: '§6§lTynixCloud §8:: §fИспользуйте - §e/send <ник>
 CRASH_HELP: '§6§lTynixCloud §8:: §fИспользуйте - §e/crash <ник>'
 FIND_MESSAGE: '§6§lTynixCloud §8:: %player% §fнаходится на сервере §e%server%'
 MONEY_MESSAGE: '§6§lTynixCloud §8:: §fВаш баланс: §e%money% §fи §6%golds%'
-EXT_MESSAGE: '§6§lTynixCloud §8:: §fВы §aуспешно §fпотушили себя!'
-FEED_MESSAGE: '§6§lTynixCloud §8:: §fВы §aуспешно §fнакормили себя!'
-FLY_MESSAGE: '§6§lTynixCloud §8:: §fРазрешение на полёт: %fly%'
-HEAL_MESSAGE: '§6§lTynixCloud §8:: §fВаше здоровье §aуспешно §fвосстановлено!'
 PING_YOURSELF_MESSAGE: '§6§lTynixCloud §8:: §fВаш пинг §a%ping% §fms'
 PING_OTHER_MESSAGE: '§6§lTynixCloud §8:: §fПинг игрока %player% §f- §a%ping% §fms'
 
@@ -268,6 +264,27 @@ TELEPORT_MESSAGE:
   - ' §7Телепортация по координатам - §e/teleport <x> <y> <z>'
   - ' §7Телепортация игрока по координатам - §e/teleport <ник игрока> <x> <y> <z>'
 TELEPORT_SUCCESS_TELEPORT: '§6§lTynixCloud §8:: §fВы были §aуспешно §fтелепортированы к игроку %player%'
+
+# Essentials messages.
+AUCTION_HELP_MESSAGE:
+  - '§6§lAuction §8:: §fСписок доступных команд:'
+  - ' §7Выставить на продажу предмет - §e/auction sell <цена>'
+  - ' §7Открыть меню аукциона - §e/auction menu/list'
+AUCTION_SELL_FORMAT: '§6§lAuction §8:: §fИспользуйте - §6/auction sell <цена>'
+AUCTION_SELL_ERROR_NOT_NUMBER: '§6§lAuction §8:: §cОшибка, указана неверная цена товара!'
+AUCTION_SELL_ERROR_NOT_ITEM: '§6§lAuction §8:: §cОшибка, у Вас нет никакого предмета в руках!'
+AUCTION_SELL_SUCCESS_ADD_ITEM: '§6§lAuction §8:: §fВы успешно выставили товар в руках на аукцион за §a%money%'
+
+WEATHER_FORMAT: '§6§lTynixCloud §8:: §fИспользуйте - §6/weather <thunder/storm/sun>'
+WEATHER_SUCCESS_CHANGE_SKY: '§6§lTynixCloud §8:: §fПогода в мире §e%world% §fбыла успешно изменена!'
+BACKWARD_ERROR_NOT_LOCATION: '§6§lTynixCloud §8:: §cОшибка, у Вас нет предыдущей точки телепортации!'
+CLEAR_SUCCESS_RESET: '§6§lTynixCloud §8:: §fВы были полностью очищены от вещей и эффектов!'
+DAY_SUCCESS_SET_TIME: '§6§lTynixCloud §8:: §fВ мире §e%world% §fбыло установено §6дневное §fвремя суток'
+NIGHT_SUCCESS_SET_TIME: '§6§lTynixCloud §8:: §fВ мире §e%world% §fбыло установено §9ночное §fвремя суток'
+EXT_MESSAGE: '§6§lTynixCloud §8:: §fВы §aуспешно §fпотушили себя!'
+FEED_MESSAGE: '§6§lTynixCloud §8:: §fВы §aуспешно §fнакормили себя!'
+FLY_MESSAGE: '§6§lTynixCloud §8:: §fРазрешение на полёт: %fly%'
+HEAL_MESSAGE: '§6§lTynixCloud §8:: §fВаше здоровье §aуспешно §fвосстановлено!'
 
 # Level
 LVL_UP_TITLE: '§a§l§kX§c§l УРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
@@ -495,7 +512,6 @@ MENU_HELP_LINES:
   - '§7форумы и много чего другого'
   - ''
   - '§e▸ Нажмите чтобы открыть.'
-
 
 # Profile messages.
 PROFILE_MENU_TITLE: 'Профиль'
